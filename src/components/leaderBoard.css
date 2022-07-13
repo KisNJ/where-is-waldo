@@ -1,0 +1,64 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.mark{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.choose{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 20px 40px;
+    gap:50px;
+    font-size: 2rem;
+}
+.choose>div{
+    flex-grow: 1;
+    text-align: center;
+    border-bottom: 5px solid gray;
+    box-shadow: 3px 4px 7px grey;
+}
+.currentDiv{
+    border-bottom: 5px solid #991b1b !important;
+    box-shadow: 3px 4px 7px #991b1b !important;
+}
+.line{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius:5px;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.last{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius:5px;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.Top{
+    display: flex;
+    border: 1px solid gray;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius:5px;
+    font-size: 1.5rem;
+    padding: 5px;
+    font-weight: bold;
+}
